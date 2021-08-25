@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<h1>Welcome to Speech Engine</h1>     
+<body>
+    <form action = "/external/" method = "post">
+        {% csrf_token %}
+        
+        <label for = "textar"></label>
+        <textarea id ="textar" name = "param" rows ="4" cols =  "50" >   
+        </textarea>
+        <input type="submit" value="Submit">
+        <br><br>
+        <hr><br>
+        {{data1}}
+        <br><br><hr><br>
+    </form>
+</body>
+</html>

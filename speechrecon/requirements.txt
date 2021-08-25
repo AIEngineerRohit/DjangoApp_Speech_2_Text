@@ -1,0 +1,10 @@
+fastBPE 
+regex 
+requests 
+sacremoses 
+subword_nmt
+sacremoses 
+subword_nmt
+hydra-core
+omegaconf
+fairseq
